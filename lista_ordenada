@@ -1,0 +1,9 @@
+osboxes:x:1000:1000:osboxes.org:/home/osboxes:/bin/bash
+root:x:0:0:root:/root:/bin/bash
+dhcpcd:x:100:65534:DHCP Client Daemon,,,:/usr/lib/dhcpcd:/bin/false
+hplip:x:116:7:HPLIP system user,,,:/run/hplip:/bin/false
+sddm:x:112:114:Simple Desktop Display Manager:/var/lib/sddm:/bin/false
+speech-dispatcher:x:110:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+tss:x:105:105:TPM software stack,,,:/var/lib/tpm:/bin/false
+whoopsie:x:107:109::/nonexistent:/bin/false
+sync:x:4:65534:sync:/bin:/bin/sync
