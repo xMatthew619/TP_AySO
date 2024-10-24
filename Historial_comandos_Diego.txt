@@ -1,0 +1,121 @@
+ls
+cd
+ls
+cd
+ls
+cat historial.txt 
+rm -r historial.txt 
+cat historial.txt 
+cd
+ssh-keygen 
+y
+ssh-keygen 
+cd
+cat $HOME/.ssh/*.pub
+cd repogit/
+git clone git@github.com:xMatthew619/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release 
+man grep
+grep HOME_URL /etc/os-release 
+grep home_url /etc/os-release 
+grep -i Home_url /etc/os-release 
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cd
+ls -l
+cd repo
+cd repogit/
+ls
+cd TP_AySO/
+ls
+git add .
+git status
+git add .
+git config --global user.email "hysteria.gplus@gmail.com"
+git config --global user.name "xMatthew619"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+git config --global user.email "diego_fernandez_619@hotmail.com"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+git add .
+git status
+/proc/cpuinfo
+sudo /proc/cpuinfo
+ls
+grep "model name" /proc/cpuinfo | head -n 1 >> datos_usuario.txt
+git status
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+grep -v "nologin" /etc/passwd | head -n 10 | sort -t ':' -k 7 > lista_ordenada
+car lista_ordenada 
+cat lista_ordenada 
+git status
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+git status
+grep "Comando: tcpdump" $(tcpdump) > comando_dump_net
+cd
+ls
+cd repogit/
+ls
+cd TP
+cd TP_AySO/
+sudo grep "Comando: tcpdump" $(tcpdump) > comando_dump_net
+cd
+tcpdump 
+sudo tcpdump 
+grep "tcpdump\nComando para ejecutar: sudo tcpdump -i eth0 -w tcpdump.pcap" > comando_dump_net
+ls
+cat comando_dump_net 
+rm comando_dump_net 
+ls
+grep "tcpdump" "\nComando para ejecutar: sudo tcpdump -i eth0 -w tcpdump.pcap" > comando_dump_net
+grep "tcpdump\nComando para ejecutar: sudo tcpdump -i eth0 -w tcpdump.pcap" > comando_dump_net
+ls
+cat comando_dump_net 
+rm comando_dump_net 
+grep -P "tcpdump\nComando para ejecutar: sudo tcpdump -i eth0 -w tcpdump.pcap" > comando_dump_net
+ls
+cat comando_dump_net 
+rm comando_dump_net 
+history > asd.txt
+ls
+rm asd.txt 
+ls
+grep -P "tcpdump\nComando para ejecutar: tcpdump -i eth0 -w tcpdump.pcap" > comando_dump_net
+ls
+rm comando_dump_net 
+grep -P "tcpdump\nComando para ejecutar: tcpdump" > comando_dump_net
+rm comando_dump_net 
+grep "Nombre: tcpdump ###### Comando para ejecutar: tcpdump" > comando_dump_net
+cd
+tshark
+cd repogit/TP_AySO/
+ls
+grep "tcpdump\nComando para ejecutar: sudo tcpdump -i eth0 -w tcpdump.pcap"
+rm comando_dump_net 
+echo "Nombre: tcpdump ##### Comando para ejecutar: tcpdump -i eth0 -w tcpdump1.pcap" > comando_dump_net
+ls
+cat comando_dump_net 
+git status
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+cat << EOF > README.md
+Alumno: Diego Fernández Caldas
+División: Div 111
+Turno: Mañana
+
+EOF
+
+man history
+history -a $HOME/.bash_history > Historial_comandos_Diego.txt
+ls
+cat Historial_comandos_Diego.txt 
+rm Historial_comandos_Diego.txt 
+history -a $HOME/.bash_history
+history
+history -a
